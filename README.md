@@ -1,4 +1,4 @@
-## Lambda CredsStash environment variables 
+## Lambda CredsStash environment variables
 
 # Introduction
 
