@@ -5,6 +5,10 @@
 This library is written for loading environment variables on AWS lambda
 from [credstash](https://github.com/fugue/credstash) secrets store.
 
+# Installation
+
+`npm install [--save-dev] lambda-credstash-envvars`
+
 # Caching
 
 Process environment variables are cached for warm lambda containers, and are
