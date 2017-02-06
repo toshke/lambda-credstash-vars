@@ -1,6 +1,6 @@
 {
   "name": "lambda-credstash-envvars",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Load environment variables in lambda using credstash",
   "main": "index.js",
   "dependencies": {
