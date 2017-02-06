@@ -1,0 +1,31 @@
+{
+  "name": "lambda-credstash-envvars",
+  "version": "1.0.1",
+  "description": "Load environment variables in lambda using credstash",
+  "main": "index.js",
+  "dependencies": {
+    "aes-js": "^2.1.0",
+    "aws-sdk": "^2.9.0",
+    "crypto": "0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toshke/lambda-credstash-vars.git"
+  },
+  "keywords": [
+    "Lambda",
+    "AWS",
+    "Credstash",
+    "EnvVars"
+  ],
+  "author": "Nikola Tosic (n.tosic@base2services.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toshke/lambda-credstash-vars/issues"
+  },
+  "homepage": "https://github.com/toshke/lambda-credstash-vars#readme"
+}
