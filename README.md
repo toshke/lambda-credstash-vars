@@ -38,3 +38,5 @@ Behavior is controlled via Lambda's process environment variables:
 - `CREDSTASH_REGION` - region of DynamoDB table where credstash secrets are store
 - `CREDSTASH_VARIABLES_FORCE_LOAD` - if set to `1` variables will not be cached, and will
    be always loaded regardless if running in hot or cold containers.
+- `CREDSTASH_FAIL_ON_ERROR` - if set to `1` will make the root process exit on failure to read or decrypt
+   environment variables stored in credstash.
